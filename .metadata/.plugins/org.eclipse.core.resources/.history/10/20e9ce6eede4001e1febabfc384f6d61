@@ -1,0 +1,17 @@
+package sec2;
+
+import java.io.BufferedReader;
+import java.net.Socket;
+
+public class MultiClient {
+	public static void main(String[] args) {
+		MultiClient client = new MultiClient();
+		client.start();
+	}
+	public void start() {
+		Socket socket = null;
+		BufferedReader in = null;
+		
+		socket = new Socket("127.0.0.1", 8000)
+	}
+}

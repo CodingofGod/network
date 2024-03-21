@@ -1,0 +1,9 @@
+package sec3;
+
+public class Myserver {
+	public static void main(String[] args) {
+		SeverSocket 
+
+	}
+
+}

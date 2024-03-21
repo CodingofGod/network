@@ -1,0 +1,13 @@
+package sec2;
+
+import java.net.Socket;
+import java.util.Scanner;
+
+public class SandThread extends Thread {
+	Socket socket = null;
+	String name;
+	
+	Scanner sc = new Scanner(System.in);
+	
+	
+}
